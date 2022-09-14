@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490A109028D0C9B500ED0D05 /* hit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A108F28D0C9B500ED0D05 /* hit.swift */; };
+		492A82FF28CFA7AF00258353 /* StructViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A82FE28CFA7AF00258353 /* StructViews.swift */; };
+		492A830128CFC1A800258353 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A830028CFC1A800258353 /* SecondView.swift */; };
+		494B15D128D0EF5F001B27B4 /* Skyrus.png in Resources */ = {isa = PBXBuildFile; fileRef = 494B15D028D0EF5F001B27B4 /* Skyrus.png */; };
+		49775CDB28CBB513006B43DC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49775CDA28CBB512006B43DC /* Game.swift */; };
+		49F10FA028D0FA4200D7F0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F10F9F28D0FA4200D7F0CB /* Assets.xcassets */; };
+		49F10FA328D0FAF900D7F0CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F10FA228D0FAF900D7F0CB /* Launch Screen.storyboard */; };
+		49F9E52028CA703B000C6E03 /* GP_alvoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E51F28CA703B000C6E03 /* GP_alvoApp.swift */; };
+		49F9E52228CA703B000C6E03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E52128CA703B000C6E03 /* ContentView.swift */; };
+		49F9E52728CA703C000C6E03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F9E52628CA703C000C6E03 /* Preview Assets.xcassets */; };
+		49F9E52928CA703C000C6E03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E52828CA703C000C6E03 /* Persistence.swift */; };
+		49F9E52C28CA703C000C6E03 /* GP_alvo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E52A28CA703C000C6E03 /* GP_alvo.xcdatamodeld */; };
+		49F9E53628CA703C000C6E03 /* GP_alvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E53528CA703C000C6E03 /* GP_alvoTests.swift */; };
+		49F9E54028CA703C000C6E03 /* GP_alvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E53F28CA703C000C6E03 /* GP_alvoUITests.swift */; };
+		49F9E54228CA703C000C6E03 /* GP_alvoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E54128CA703C000C6E03 /* GP_alvoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F9E53228CA703C000C6E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F9E51428CA703B000C6E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F9E51B28CA703B000C6E03;
+			remoteInfo = "GP alvo";
+		};
+		49F9E53C28CA703C000C6E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F9E51428CA703B000C6E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F9E51B28CA703B000C6E03;
+			remoteInfo = "GP alvo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490A108F28D0C9B500ED0D05 /* hit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hit.swift; sourceTree = "<group>"; };
+		492A82FE28CFA7AF00258353 /* StructViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViews.swift; sourceTree = "<group>"; };
+		492A830028CFC1A800258353 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		494B15D028D0EF5F001B27B4 /* Skyrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Skyrus.png; path = /Users/user226765/Downloads/Skyrus.png; sourceTree = "<absolute>"; };
+		49775CDA28CBB512006B43DC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		49F10F9F28D0FA4200D7F0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F10FA128D0FA9200D7F0CB /* GP-alvo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GP-alvo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49F10FA228D0FAF900D7F0CB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		49F9E51C28CA703B000C6E03 /* GP alvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GP alvo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F9E51F28CA703B000C6E03 /* GP_alvoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GP_alvoApp.swift; sourceTree = "<group>"; };
+		49F9E52128CA703B000C6E03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49F9E52628CA703C000C6E03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49F9E52828CA703C000C6E03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		49F9E52B28CA703C000C6E03 /* GP_alvo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GP_alvo.xcdatamodel; sourceTree = "<group>"; };
+		49F9E53128CA703C000C6E03 /* GP alvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GP alvoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F9E53528CA703C000C6E03 /* GP_alvoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GP_alvoTests.swift; sourceTree = "<group>"; };
+		49F9E53B28CA703C000C6E03 /* GP alvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GP alvoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F9E53F28CA703C000C6E03 /* GP_alvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GP_alvoUITests.swift; sourceTree = "<group>"; };
+		49F9E54128CA703C000C6E03 /* GP_alvoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GP_alvoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F9E51928CA703B000C6E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E52E28CA703C000C6E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E53828CA703C000C6E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F9E51328CA703B000C6E03 = {
+			isa = PBXGroup;
+			children = (
+				49F10FA228D0FAF900D7F0CB /* Launch Screen.storyboard */,
+				49F9E51E28CA703B000C6E03 /* GP alvo */,
+				49F9E53428CA703C000C6E03 /* GP alvoTests */,
+				49F9E53E28CA703C000C6E03 /* GP alvoUITests */,
+				49F9E51D28CA703B000C6E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F9E51D28CA703B000C6E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F9E51C28CA703B000C6E03 /* GP alvo.app */,
+				49F9E53128CA703C000C6E03 /* GP alvoTests.xctest */,
+				49F9E53B28CA703C000C6E03 /* GP alvoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F9E51E28CA703B000C6E03 /* GP alvo */ = {
+			isa = PBXGroup;
+			children = (
+				49F10FA128D0FA9200D7F0CB /* GP-alvo-Info.plist */,
+				49F10F9F28D0FA4200D7F0CB /* Assets.xcassets */,
+				494B15D028D0EF5F001B27B4 /* Skyrus.png */,
+				49F9E51F28CA703B000C6E03 /* GP_alvoApp.swift */,
+				49F9E52128CA703B000C6E03 /* ContentView.swift */,
+				492A82FE28CFA7AF00258353 /* StructViews.swift */,
+				49F9E52828CA703C000C6E03 /* Persistence.swift */,
+				49F9E52A28CA703C000C6E03 /* GP_alvo.xcdatamodeld */,
+				49F9E52528CA703C000C6E03 /* Preview Content */,
+				49775CDA28CBB512006B43DC /* Game.swift */,
+				492A830028CFC1A800258353 /* SecondView.swift */,
+				490A108F28D0C9B500ED0D05 /* hit.swift */,
+			);
+			path = "GP alvo";
+			sourceTree = "<group>";
+		};
+		49F9E52528CA703C000C6E03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49F9E52628CA703C000C6E03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49F9E53428CA703C000C6E03 /* GP alvoTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F9E53528CA703C000C6E03 /* GP_alvoTests.swift */,
+			);
+			path = "GP alvoTests";
+			sourceTree = "<group>";
+		};
+		49F9E53E28CA703C000C6E03 /* GP alvoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F9E53F28CA703C000C6E03 /* GP_alvoUITests.swift */,
+				49F9E54128CA703C000C6E03 /* GP_alvoUITestsLaunchTests.swift */,
+			);
+			path = "GP alvoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F9E51B28CA703B000C6E03 /* GP alvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F9E54528CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvo" */;
+			buildPhases = (
+				49F9E51828CA703B000C6E03 /* Sources */,
+				49F9E51928CA703B000C6E03 /* Frameworks */,
+				49F9E51A28CA703B000C6E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GP alvo";
+			productName = "GP alvo";
+			productReference = 49F9E51C28CA703B000C6E03 /* GP alvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F9E53028CA703C000C6E03 /* GP alvoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F9E54828CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvoTests" */;
+			buildPhases = (
+				49F9E52D28CA703C000C6E03 /* Sources */,
+				49F9E52E28CA703C000C6E03 /* Frameworks */,
+				49F9E52F28CA703C000C6E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F9E53328CA703C000C6E03 /* PBXTargetDependency */,
+			);
+			name = "GP alvoTests";
+			productName = "GP alvoTests";
+			productReference = 49F9E53128CA703C000C6E03 /* GP alvoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49F9E53A28CA703C000C6E03 /* GP alvoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F9E54B28CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvoUITests" */;
+			buildPhases = (
+				49F9E53728CA703C000C6E03 /* Sources */,
+				49F9E53828CA703C000C6E03 /* Frameworks */,
+				49F9E53928CA703C000C6E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F9E53D28CA703C000C6E03 /* PBXTargetDependency */,
+			);
+			name = "GP alvoUITests";
+			productName = "GP alvoUITests";
+			productReference = 49F9E53B28CA703C000C6E03 /* GP alvoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F9E51428CA703B000C6E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					49F9E51B28CA703B000C6E03 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					49F9E53028CA703C000C6E03 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 49F9E51B28CA703B000C6E03;
+					};
+					49F9E53A28CA703C000C6E03 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 49F9E51B28CA703B000C6E03;
+					};
+				};
+			};
+			buildConfigurationList = 49F9E51728CA703B000C6E03 /* Build configuration list for PBXProject "GP alvo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F9E51328CA703B000C6E03;
+			productRefGroup = 49F9E51D28CA703B000C6E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F9E51B28CA703B000C6E03 /* GP alvo */,
+				49F9E53028CA703C000C6E03 /* GP alvoTests */,
+				49F9E53A28CA703C000C6E03 /* GP alvoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F9E51A28CA703B000C6E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494B15D128D0EF5F001B27B4 /* Skyrus.png in Resources */,
+				49F10FA028D0FA4200D7F0CB /* Assets.xcassets in Resources */,
+				49F10FA328D0FAF900D7F0CB /* Launch Screen.storyboard in Resources */,
+				49F9E52728CA703C000C6E03 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E52F28CA703C000C6E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E53928CA703C000C6E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F9E51828CA703B000C6E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492A830128CFC1A800258353 /* SecondView.swift in Sources */,
+				490A109028D0C9B500ED0D05 /* hit.swift in Sources */,
+				49F9E52C28CA703C000C6E03 /* GP_alvo.xcdatamodeld in Sources */,
+				49775CDB28CBB513006B43DC /* Game.swift in Sources */,
+				49F9E52928CA703C000C6E03 /* Persistence.swift in Sources */,
+				49F9E52228CA703B000C6E03 /* ContentView.swift in Sources */,
+				49F9E52028CA703B000C6E03 /* GP_alvoApp.swift in Sources */,
+				492A82FF28CFA7AF00258353 /* StructViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E52D28CA703C000C6E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F9E53628CA703C000C6E03 /* GP_alvoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F9E53728CA703C000C6E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F9E54028CA703C000C6E03 /* GP_alvoUITests.swift in Sources */,
+				49F9E54228CA703C000C6E03 /* GP_alvoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F9E53328CA703C000C6E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F9E51B28CA703B000C6E03 /* GP alvo */;
+			targetProxy = 49F9E53228CA703C000C6E03 /* PBXContainerItemProxy */;
+		};
+		49F9E53D28CA703C000C6E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F9E51B28CA703B000C6E03 /* GP alvo */;
+			targetProxy = 49F9E53C28CA703C000C6E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49F9E54328CA703C000C6E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F9E54428CA703C000C6E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F9E54628CA703C000C6E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GP alvo/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWY3FGBS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GP-alvo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F9E54728CA703C000C6E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GP alvo/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWY3FGBS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GP-alvo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49F9E54928CA703C000C6E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GP alvo.app/GP alvo";
+			};
+			name = Debug;
+		};
+		49F9E54A28CA703C000C6E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GP alvo.app/GP alvo";
+			};
+			name = Release;
+		};
+		49F9E54C28CA703C000C6E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GP alvo";
+			};
+			name = Debug;
+		};
+		49F9E54D28CA703C000C6E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.GP-alvoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GP alvo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F9E51728CA703B000C6E03 /* Build configuration list for PBXProject "GP alvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F9E54328CA703C000C6E03 /* Debug */,
+				49F9E54428CA703C000C6E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F9E54528CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F9E54628CA703C000C6E03 /* Debug */,
+				49F9E54728CA703C000C6E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F9E54828CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F9E54928CA703C000C6E03 /* Debug */,
+				49F9E54A28CA703C000C6E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F9E54B28CA703C000C6E03 /* Build configuration list for PBXNativeTarget "GP alvoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F9E54C28CA703C000C6E03 /* Debug */,
+				49F9E54D28CA703C000C6E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49F9E52A28CA703C000C6E03 /* GP_alvo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49F9E52B28CA703C000C6E03 /* GP_alvo.xcdatamodel */,
+			);
+			currentVersion = 49F9E52B28CA703C000C6E03 /* GP_alvo.xcdatamodel */;
+			path = GP_alvo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49F9E51428CA703B000C6E03 /* Project object */;
+}
